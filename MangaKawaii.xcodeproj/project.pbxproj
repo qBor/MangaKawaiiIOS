@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A2E5E9123CB96070006DA66 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E5E9023CB96070006DA66 /* File.swift */; };
 		0A84F39C23CB8AAD00BCB007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */; };
 		0A84F39E23CB8AAD00BCB007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */; };
 		0A84F3A023CB8AAD00BCB007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39F23CB8AAD00BCB007 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		0A84F3A823CB8AAF00BCB007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */; };
 		0A84F3B323CB8AAF00BCB007 /* MangaKawaiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F3B223CB8AAF00BCB007 /* MangaKawaiiTests.swift */; };
 		0A84F3BE23CB8AAF00BCB007 /* MangaKawaiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F3BD23CB8AAF00BCB007 /* MangaKawaiiUITests.swift */; };
+		0B3587662DA713DCF0F526DF /* Pods_MangaKawaii_MangaKawaiiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C2B1C4CA1BD34D5C70D1BD /* Pods_MangaKawaii_MangaKawaiiUITests.framework */; };
+		1C9ABDA7C4DD4CECBDE3D58C /* Pods_MangaKawaiiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A185F0701273EFE1D9B783D /* Pods_MangaKawaiiTests.framework */; };
+		B1B88256D8175C86AF4C46FA /* Pods_MangaKawaii.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759C119A1307F9E2E0DBD644 /* Pods_MangaKawaii.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2E5E9023CB96070006DA66 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0A643470A84476598B1B1FB8 /* Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig"; path = "Target Support Files/Pods-MangaKawaii-MangaKawaiiUITests/Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0A84F39823CB8AAC00BCB007 /* MangaKawaii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaKawaii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,15 @@
 		0A84F3B923CB8AAF00BCB007 /* MangaKawaiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaKawaiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A84F3BD23CB8AAF00BCB007 /* MangaKawaiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaKawaiiUITests.swift; sourceTree = "<group>"; };
 		0A84F3BF23CB8AAF00BCB007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AEF92AE23CB98F70043F776 /* Floaty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Floaty.framework; path = Carthage/Build/iOS/Floaty.framework; sourceTree = "<group>"; };
+		1A185F0701273EFE1D9B783D /* Pods_MangaKawaiiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaKawaiiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F781338A90263369C06465B /* Pods-MangaKawaii-MangaKawaiiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaii-MangaKawaiiUITests.debug.xcconfig"; path = "Target Support Files/Pods-MangaKawaii-MangaKawaiiUITests/Pods-MangaKawaii-MangaKawaiiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C4A528922944A3E1DBE3264 /* Pods-MangaKawaii.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaii.debug.xcconfig"; path = "Target Support Files/Pods-MangaKawaii/Pods-MangaKawaii.debug.xcconfig"; sourceTree = "<group>"; };
+		404F547A0E75F52C62ADF8AF /* Pods-MangaKawaii.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaii.release.xcconfig"; path = "Target Support Files/Pods-MangaKawaii/Pods-MangaKawaii.release.xcconfig"; sourceTree = "<group>"; };
+		480C36551984BD1AA26B54EC /* Pods-MangaKawaiiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaiiTests.release.xcconfig"; path = "Target Support Files/Pods-MangaKawaiiTests/Pods-MangaKawaiiTests.release.xcconfig"; sourceTree = "<group>"; };
+		759C119A1307F9E2E0DBD644 /* Pods_MangaKawaii.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaKawaii.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9BD1FBC7F6E76C1E12C1D4F /* Pods-MangaKawaiiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaiiTests.debug.xcconfig"; path = "Target Support Files/Pods-MangaKawaiiTests/Pods-MangaKawaiiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C2B1C4CA1BD34D5C70D1BD /* Pods_MangaKawaii_MangaKawaiiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MangaKawaii_MangaKawaiiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B88256D8175C86AF4C46FA /* Pods_MangaKawaii.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9ABDA7C4DD4CECBDE3D58C /* Pods_MangaKawaiiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3587662DA713DCF0F526DF /* Pods_MangaKawaii_MangaKawaiiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,8 @@
 				0A84F3B123CB8AAF00BCB007 /* MangaKawaiiTests */,
 				0A84F3BC23CB8AAF00BCB007 /* MangaKawaiiUITests */,
 				0A84F39923CB8AAC00BCB007 /* Products */,
+				0AEF92AD23CB98F70043F776 /* Frameworks */,
+				129877B9C8A9B1C9CAF6273B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +123,7 @@
 				0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */,
 				0A84F39F23CB8AAD00BCB007 /* ViewController.swift */,
 				0A84F3A123CB8AAD00BCB007 /* Main.storyboard */,
+				0A2E5E9023CB96070006DA66 /* File.swift */,
 				0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */,
 				0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */,
 				0A84F3A923CB8AAF00BCB007 /* Info.plist */,
@@ -128,6 +149,31 @@
 			path = MangaKawaiiUITests;
 			sourceTree = "<group>";
 		};
+		0AEF92AD23CB98F70043F776 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AEF92AE23CB98F70043F776 /* Floaty.framework */,
+				759C119A1307F9E2E0DBD644 /* Pods_MangaKawaii.framework */,
+				F0C2B1C4CA1BD34D5C70D1BD /* Pods_MangaKawaii_MangaKawaiiUITests.framework */,
+				1A185F0701273EFE1D9B783D /* Pods_MangaKawaiiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		129877B9C8A9B1C9CAF6273B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C4A528922944A3E1DBE3264 /* Pods-MangaKawaii.debug.xcconfig */,
+				404F547A0E75F52C62ADF8AF /* Pods-MangaKawaii.release.xcconfig */,
+				1F781338A90263369C06465B /* Pods-MangaKawaii-MangaKawaiiUITests.debug.xcconfig */,
+				0A643470A84476598B1B1FB8 /* Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig */,
+				B9BD1FBC7F6E76C1E12C1D4F /* Pods-MangaKawaiiTests.debug.xcconfig */,
+				480C36551984BD1AA26B54EC /* Pods-MangaKawaiiTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A84F3C223CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaii" */;
 			buildPhases = (
+				2C0C8D7A2C1A8F5367962BBE /* [CP] Check Pods Manifest.lock */,
 				0A84F39423CB8AAC00BCB007 /* Sources */,
 				0A84F39523CB8AAC00BCB007 /* Frameworks */,
 				0A84F39623CB8AAC00BCB007 /* Resources */,
+				BCE1F4D8856072E31E154888 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A84F3C523CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaiiTests" */;
 			buildPhases = (
+				70B73C6F0E415039ED07FDED /* [CP] Check Pods Manifest.lock */,
 				0A84F3AA23CB8AAF00BCB007 /* Sources */,
 				0A84F3AB23CB8AAF00BCB007 /* Frameworks */,
 				0A84F3AC23CB8AAF00BCB007 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0A84F3C823CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaiiUITests" */;
 			buildPhases = (
+				11B27BC7212D79D15344BE95 /* [CP] Check Pods Manifest.lock */,
 				0A84F3B523CB8AAF00BCB007 /* Sources */,
 				0A84F3B623CB8AAF00BCB007 /* Frameworks */,
 				0A84F3B723CB8AAF00BCB007 /* Resources */,
+				2AE835A8A5D2C1B9FA8C60E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +305,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11B27BC7212D79D15344BE95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaKawaii-MangaKawaiiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AE835A8A5D2C1B9FA8C60E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaKawaii-MangaKawaiiUITests/Pods-MangaKawaii-MangaKawaiiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaKawaii-MangaKawaiiUITests/Pods-MangaKawaii-MangaKawaiiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangaKawaii-MangaKawaiiUITests/Pods-MangaKawaii-MangaKawaiiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C0C8D7A2C1A8F5367962BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaKawaii-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B73C6F0E415039ED07FDED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MangaKawaiiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE1F4D8856072E31E154888 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaKawaii/Pods-MangaKawaii-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MangaKawaii/Pods-MangaKawaii-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MangaKawaii/Pods-MangaKawaii-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0A84F39423CB8AAC00BCB007 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0A84F3A023CB8AAD00BCB007 /* ViewController.swift in Sources */,
+				0A2E5E9123CB96070006DA66 /* File.swift in Sources */,
 				0A84F39C23CB8AAD00BCB007 /* AppDelegate.swift in Sources */,
 				0A84F39E23CB8AAD00BCB007 /* SceneDelegate.swift in Sources */,
 			);
@@ -366,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,10 +587,17 @@
 		};
 		0A84F3C323CB8AAF00BCB007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C4A528922944A3E1DBE3264 /* Pods-MangaKawaii.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3DUEJCSNW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MangaKawaii/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +611,17 @@
 		};
 		0A84F3C423CB8AAF00BCB007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404F547A0E75F52C62ADF8AF /* Pods-MangaKawaii.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3DUEJCSNW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MangaKawaii/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +635,7 @@
 		};
 		0A84F3C623CB8AAF00BCB007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9BD1FBC7F6E76C1E12C1D4F /* Pods-MangaKawaiiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +657,7 @@
 		};
 		0A84F3C723CB8AAF00BCB007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480C36551984BD1AA26B54EC /* Pods-MangaKawaiiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +679,7 @@
 		};
 		0A84F3C923CB8AAF00BCB007 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F781338A90263369C06465B /* Pods-MangaKawaii-MangaKawaiiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +699,7 @@
 		};
 		0A84F3CA23CB8AAF00BCB007 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A643470A84476598B1B1FB8 /* Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
