@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A84F39C23CB8AAD00BCB007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */; };
+		0A84F39E23CB8AAD00BCB007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */; };
+		0A84F3A023CB8AAD00BCB007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39F23CB8AAD00BCB007 /* ViewController.swift */; };
+		0A84F3A323CB8AAD00BCB007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A123CB8AAD00BCB007 /* Main.storyboard */; };
+		0A84F3A523CB8AAF00BCB007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */; };
+		0A84F3A823CB8AAF00BCB007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */; };
+		0A84F3B323CB8AAF00BCB007 /* MangaKawaiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F3B223CB8AAF00BCB007 /* MangaKawaiiTests.swift */; };
+		0A84F3BE23CB8AAF00BCB007 /* MangaKawaiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F3BD23CB8AAF00BCB007 /* MangaKawaiiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A84F3AF23CB8AAF00BCB007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A84F39023CB8AAC00BCB007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A84F39723CB8AAC00BCB007;
+			remoteInfo = MangaKawaii;
+		};
+		0A84F3BA23CB8AAF00BCB007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A84F39023CB8AAC00BCB007 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A84F39723CB8AAC00BCB007;
+			remoteInfo = MangaKawaii;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A84F39823CB8AAC00BCB007 /* MangaKawaii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaKawaii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A84F39F23CB8AAD00BCB007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A84F3A223CB8AAD00BCB007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A84F3A723CB8AAF00BCB007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A84F3A923CB8AAF00BCB007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A84F3AE23CB8AAF00BCB007 /* MangaKawaiiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaKawaiiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A84F3B223CB8AAF00BCB007 /* MangaKawaiiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaKawaiiTests.swift; sourceTree = "<group>"; };
+		0A84F3B423CB8AAF00BCB007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A84F3B923CB8AAF00BCB007 /* MangaKawaiiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaKawaiiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A84F3BD23CB8AAF00BCB007 /* MangaKawaiiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangaKawaiiUITests.swift; sourceTree = "<group>"; };
+		0A84F3BF23CB8AAF00BCB007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A84F39523CB8AAC00BCB007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A84F3AB23CB8AAF00BCB007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A84F3B623CB8AAF00BCB007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A84F38F23CB8AAC00BCB007 = {
+			isa = PBXGroup;
+			children = (
+				0A84F39A23CB8AAC00BCB007 /* MangaKawaii */,
+				0A84F3B123CB8AAF00BCB007 /* MangaKawaiiTests */,
+				0A84F3BC23CB8AAF00BCB007 /* MangaKawaiiUITests */,
+				0A84F39923CB8AAC00BCB007 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A84F39923CB8AAC00BCB007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A84F39823CB8AAC00BCB007 /* MangaKawaii.app */,
+				0A84F3AE23CB8AAF00BCB007 /* MangaKawaiiTests.xctest */,
+				0A84F3B923CB8AAF00BCB007 /* MangaKawaiiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A84F39A23CB8AAC00BCB007 /* MangaKawaii */ = {
+			isa = PBXGroup;
+			children = (
+				0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */,
+				0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */,
+				0A84F39F23CB8AAD00BCB007 /* ViewController.swift */,
+				0A84F3A123CB8AAD00BCB007 /* Main.storyboard */,
+				0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */,
+				0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */,
+				0A84F3A923CB8AAF00BCB007 /* Info.plist */,
+			);
+			path = MangaKawaii;
+			sourceTree = "<group>";
+		};
+		0A84F3B123CB8AAF00BCB007 /* MangaKawaiiTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A84F3B223CB8AAF00BCB007 /* MangaKawaiiTests.swift */,
+				0A84F3B423CB8AAF00BCB007 /* Info.plist */,
+			);
+			path = MangaKawaiiTests;
+			sourceTree = "<group>";
+		};
+		0A84F3BC23CB8AAF00BCB007 /* MangaKawaiiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A84F3BD23CB8AAF00BCB007 /* MangaKawaiiUITests.swift */,
+				0A84F3BF23CB8AAF00BCB007 /* Info.plist */,
+			);
+			path = MangaKawaiiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A84F39723CB8AAC00BCB007 /* MangaKawaii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A84F3C223CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaii" */;
+			buildPhases = (
+				0A84F39423CB8AAC00BCB007 /* Sources */,
+				0A84F39523CB8AAC00BCB007 /* Frameworks */,
+				0A84F39623CB8AAC00BCB007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MangaKawaii;
+			productName = MangaKawaii;
+			productReference = 0A84F39823CB8AAC00BCB007 /* MangaKawaii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A84F3AD23CB8AAF00BCB007 /* MangaKawaiiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A84F3C523CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaiiTests" */;
+			buildPhases = (
+				0A84F3AA23CB8AAF00BCB007 /* Sources */,
+				0A84F3AB23CB8AAF00BCB007 /* Frameworks */,
+				0A84F3AC23CB8AAF00BCB007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A84F3B023CB8AAF00BCB007 /* PBXTargetDependency */,
+			);
+			name = MangaKawaiiTests;
+			productName = MangaKawaiiTests;
+			productReference = 0A84F3AE23CB8AAF00BCB007 /* MangaKawaiiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A84F3B823CB8AAF00BCB007 /* MangaKawaiiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A84F3C823CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaiiUITests" */;
+			buildPhases = (
+				0A84F3B523CB8AAF00BCB007 /* Sources */,
+				0A84F3B623CB8AAF00BCB007 /* Frameworks */,
+				0A84F3B723CB8AAF00BCB007 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A84F3BB23CB8AAF00BCB007 /* PBXTargetDependency */,
+			);
+			name = MangaKawaiiUITests;
+			productName = MangaKawaiiUITests;
+			productReference = 0A84F3B923CB8AAF00BCB007 /* MangaKawaiiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A84F39023CB8AAC00BCB007 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Kevin Fosse";
+				TargetAttributes = {
+					0A84F39723CB8AAC00BCB007 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					0A84F3AD23CB8AAF00BCB007 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 0A84F39723CB8AAC00BCB007;
+					};
+					0A84F3B823CB8AAF00BCB007 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 0A84F39723CB8AAC00BCB007;
+					};
+				};
+			};
+			buildConfigurationList = 0A84F39323CB8AAC00BCB007 /* Build configuration list for PBXProject "MangaKawaii" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A84F38F23CB8AAC00BCB007;
+			productRefGroup = 0A84F39923CB8AAC00BCB007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A84F39723CB8AAC00BCB007 /* MangaKawaii */,
+				0A84F3AD23CB8AAF00BCB007 /* MangaKawaiiTests */,
+				0A84F3B823CB8AAF00BCB007 /* MangaKawaiiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A84F39623CB8AAC00BCB007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84F3A823CB8AAF00BCB007 /* LaunchScreen.storyboard in Resources */,
+				0A84F3A523CB8AAF00BCB007 /* Assets.xcassets in Resources */,
+				0A84F3A323CB8AAD00BCB007 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A84F3AC23CB8AAF00BCB007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A84F3B723CB8AAF00BCB007 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A84F39423CB8AAC00BCB007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84F3A023CB8AAD00BCB007 /* ViewController.swift in Sources */,
+				0A84F39C23CB8AAD00BCB007 /* AppDelegate.swift in Sources */,
+				0A84F39E23CB8AAD00BCB007 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A84F3AA23CB8AAF00BCB007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84F3B323CB8AAF00BCB007 /* MangaKawaiiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A84F3B523CB8AAF00BCB007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A84F3BE23CB8AAF00BCB007 /* MangaKawaiiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A84F3B023CB8AAF00BCB007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A84F39723CB8AAC00BCB007 /* MangaKawaii */;
+			targetProxy = 0A84F3AF23CB8AAF00BCB007 /* PBXContainerItemProxy */;
+		};
+		0A84F3BB23CB8AAF00BCB007 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A84F39723CB8AAC00BCB007 /* MangaKawaii */;
+			targetProxy = 0A84F3BA23CB8AAF00BCB007 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A84F3A123CB8AAD00BCB007 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A84F3A223CB8AAD00BCB007 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A84F3A723CB8AAF00BCB007 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A84F3C023CB8AAF00BCB007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A84F3C123CB8AAF00BCB007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A84F3C323CB8AAF00BCB007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaKawaii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A84F3C423CB8AAF00BCB007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaKawaii/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A84F3C623CB8AAF00BCB007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaKawaiiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaiiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangaKawaii.app/MangaKawaii";
+			};
+			name = Debug;
+		};
+		0A84F3C723CB8AAF00BCB007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaKawaiiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaiiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MangaKawaii.app/MangaKawaii";
+			};
+			name = Release;
+		};
+		0A84F3C923CB8AAF00BCB007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaKawaiiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaiiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangaKawaii;
+			};
+			name = Debug;
+		};
+		0A84F3CA23CB8AAF00BCB007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MangaKawaiiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaiiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MangaKawaii;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A84F39323CB8AAC00BCB007 /* Build configuration list for PBXProject "MangaKawaii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A84F3C023CB8AAF00BCB007 /* Debug */,
+				0A84F3C123CB8AAF00BCB007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A84F3C223CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A84F3C323CB8AAF00BCB007 /* Debug */,
+				0A84F3C423CB8AAF00BCB007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A84F3C523CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaiiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A84F3C623CB8AAF00BCB007 /* Debug */,
+				0A84F3C723CB8AAF00BCB007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A84F3C823CB8AAF00BCB007 /* Build configuration list for PBXNativeTarget "MangaKawaiiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A84F3C923CB8AAF00BCB007 /* Debug */,
+				0A84F3CA23CB8AAF00BCB007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A84F39023CB8AAC00BCB007 /* Project object */;
+}
