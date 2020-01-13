@@ -1,0 +1,13 @@
+13/01/20 --
+
+- Ajout de l'option pour afficher les boutons retour
+- Ajout d'un système check update
+- Modification du menu paramètre + ajout d'un menu changelog
+- Ajout des crédits et d'un bouton pour signaler un problème
+- Adaptation pour les iPhones modèles ( 6 jusqu'au dernier modèle )
+- Publié sur GitHub !
+
+12/01/20 --
+
+- Support initial pour iPX11
+- Bouton "+" fixé
