@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A2E5E9123CB96070006DA66 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2E5E9023CB96070006DA66 /* File.swift */; };
+		0A182C6323CCD7C10073C067 /* ChangelogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A182C6223CCD7C10073C067 /* ChangelogViewController.swift */; };
+		0A4A700F23CCAA8D00834D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4A700E23CCAA8D00834D6C /* Main.storyboard */; };
+		0A81909623CBC9F9004579FC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81909523CBC9F9004579FC /* SettingsViewController.swift */; };
+		0A81909823CBD898004579FC /* FavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81909723CBD898004579FC /* FavViewController.swift */; };
+		0A81909A23CCA0AA004579FC /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A81909923CCA0AA004579FC /* assets.xcassets */; };
 		0A84F39C23CB8AAD00BCB007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */; };
 		0A84F39E23CB8AAD00BCB007 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */; };
 		0A84F3A023CB8AAD00BCB007 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F39F23CB8AAD00BCB007 /* ViewController.swift */; };
-		0A84F3A323CB8AAD00BCB007 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A123CB8AAD00BCB007 /* Main.storyboard */; };
-		0A84F3A523CB8AAF00BCB007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */; };
 		0A84F3A823CB8AAF00BCB007 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */; };
 		0A84F3B323CB8AAF00BCB007 /* MangaKawaiiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F3B223CB8AAF00BCB007 /* MangaKawaiiTests.swift */; };
 		0A84F3BE23CB8AAF00BCB007 /* MangaKawaiiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84F3BD23CB8AAF00BCB007 /* MangaKawaiiUITests.swift */; };
@@ -39,14 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A2E5E9023CB96070006DA66 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0A182C6223CCD7C10073C067 /* ChangelogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangelogViewController.swift; sourceTree = "<group>"; };
+		0A4A700E23CCAA8D00834D6C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0A643470A84476598B1B1FB8 /* Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig"; path = "Target Support Files/Pods-MangaKawaii-MangaKawaiiUITests/Pods-MangaKawaii-MangaKawaiiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0A81909523CBC9F9004579FC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0A81909723CBD898004579FC /* FavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewController.swift; sourceTree = "<group>"; };
+		0A81909923CCA0AA004579FC /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = assets.xcassets; path = /Users/kevin/Documents/MangaKawaii/MangaKawaii/assets.xcassets; sourceTree = "<absolute>"; };
 		0A84F39823CB8AAC00BCB007 /* MangaKawaii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MangaKawaii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0A84F39F23CB8AAD00BCB007 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0A84F3A223CB8AAD00BCB007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A84F3A723CB8AAF00BCB007 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A84F3A923CB8AAF00BCB007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A84F3AE23CB8AAF00BCB007 /* MangaKawaiiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MangaKawaiiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,14 +123,16 @@
 		0A84F39A23CB8AAC00BCB007 /* MangaKawaii */ = {
 			isa = PBXGroup;
 			children = (
+				0A182C6223CCD7C10073C067 /* ChangelogViewController.swift */,
 				0A84F39B23CB8AAD00BCB007 /* AppDelegate.swift */,
 				0A84F39D23CB8AAD00BCB007 /* SceneDelegate.swift */,
 				0A84F39F23CB8AAD00BCB007 /* ViewController.swift */,
-				0A84F3A123CB8AAD00BCB007 /* Main.storyboard */,
-				0A2E5E9023CB96070006DA66 /* File.swift */,
-				0A84F3A423CB8AAF00BCB007 /* Assets.xcassets */,
+				0A4A700E23CCAA8D00834D6C /* Main.storyboard */,
+				0A81909723CBD898004579FC /* FavViewController.swift */,
 				0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */,
 				0A84F3A923CB8AAF00BCB007 /* Info.plist */,
+				0A81909523CBC9F9004579FC /* SettingsViewController.swift */,
+				0A81909923CCA0AA004579FC /* assets.xcassets */,
 			);
 			path = MangaKawaii;
 			sourceTree = "<group>";
@@ -170,7 +176,6 @@
 				B9BD1FBC7F6E76C1E12C1D4F /* Pods-MangaKawaiiTests.debug.xcconfig */,
 				480C36551984BD1AA26B54EC /* Pods-MangaKawaiiTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -283,9 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4A700F23CCAA8D00834D6C /* Main.storyboard in Resources */,
 				0A84F3A823CB8AAF00BCB007 /* LaunchScreen.storyboard in Resources */,
-				0A84F3A523CB8AAF00BCB007 /* Assets.xcassets in Resources */,
-				0A84F3A323CB8AAD00BCB007 /* Main.storyboard in Resources */,
+				0A81909A23CCA0AA004579FC /* assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +418,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A81909823CBD898004579FC /* FavViewController.swift in Sources */,
 				0A84F3A023CB8AAD00BCB007 /* ViewController.swift in Sources */,
-				0A2E5E9123CB96070006DA66 /* File.swift in Sources */,
 				0A84F39C23CB8AAD00BCB007 /* AppDelegate.swift in Sources */,
+				0A81909623CBC9F9004579FC /* SettingsViewController.swift in Sources */,
 				0A84F39E23CB8AAD00BCB007 /* SceneDelegate.swift in Sources */,
+				0A182C6323CCD7C10073C067 /* ChangelogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,14 +459,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0A84F3A123CB8AAD00BCB007 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A84F3A223CB8AAD00BCB007 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0A84F3A623CB8AAF00BCB007 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -602,6 +601,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaii;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -626,6 +626,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevxxf.MangaKawaii;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
