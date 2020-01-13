@@ -5,6 +5,7 @@
 - Modification du menu paramètre + ajout d'un menu changelog
 - Ajout des crédits et d'un bouton pour signaler un problème
 - Adaptation pour les iPhones modèles ( 6 jusqu'au dernier modèle )
+- Projet disponible sur GitHub
 
 12/01/20 --
 
